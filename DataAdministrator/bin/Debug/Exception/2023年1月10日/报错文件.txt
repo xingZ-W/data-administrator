@@ -1,0 +1,11 @@
+[12:21:50]  Program,CurrentDomain_UnhandledException 错误：未将对象引用设置到对象的实例。
+
+Stack Trace:
+   在 DataAdministraction.MES_Coonect.MESClass.outbound_MES(String url, String WipCode, String deviceCode, String isOutBound, String userOperator, String timestamp, String deviceName, JArray paramsArrayList, JArray materialsArrayList, Int32 workstation, String plc_Name_OK, String plc_Name_NG) 位置 E:\追溯软件\DataAdministrator（10.08）\DataAdministrator\MES_Coonect\MESClass.cs:行号 172
+   在 DataAdministrator.自动流程.外壳焊后.工位1出站(String Code) 位置 E:\追溯软件\DataAdministrator（10.08）\DataAdministrator\自动流程\外壳焊后.cs:行号 199
+   在 DataAdministrator.自动流程.外壳焊后..ctor(Form1 form, String FilePath2) 位置 E:\追溯软件\DataAdministrator（10.08）\DataAdministrator\自动流程\外壳焊后.cs:行号 35
+   在 DataAdministrator.Form1.Ini() 位置 E:\追溯软件\DataAdministrator（10.08）\DataAdministrator\Form1.cs:行号 160
+   在 DataAdministrator.Form1..ctor() 位置 E:\追溯软件\DataAdministrator（10.08）\DataAdministrator\Form1.cs:行号 68
+   在 DataAdministrator.Program.Main() 位置 E:\追溯软件\DataAdministrator（10.08）\DataAdministrator\Program.cs:行号 34
+
+

@@ -1,0 +1,4 @@
+{
+    "DockerRun.DisableDockerrc": true,
+    "dotnet.preferCSharpExtension": true
+}

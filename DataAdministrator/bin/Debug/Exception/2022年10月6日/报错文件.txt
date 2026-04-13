@@ -1,0 +1,125 @@
+[13:59:01]  Program,CurrentDomain_UnhandledException 错误：未将对象引用设置到对象的实例。
+
+Stack Trace:
+   在 DataAdministrator.自动流程.Father.readPLC_CS(String[] tempStr, String str_Name, String url, String productCode, String deviceCode, String userOperator, Int32 StationType, JArray& paramsArrayList, JArray& materialsArrayList) 位置 D:\追溯软件\DataAdministrator（10.03）\DataAdministrator\自动流程\Father.cs:行号 180
+   在 DataAdministrator.自动流程.U壳体上料涂胶.工位1出站(String Code) 位置 D:\追溯软件\DataAdministrator（10.03）\DataAdministrator\自动流程\U壳体上料涂胶.cs:行号 191
+   在 ImSignal.MySignal.RunSignal() 位置 D:\追溯软件\DataAdministrator（10.03）\DataAdministrator\自定义流程的结构\MySignal.cs:行号 45
+   在 System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+
+[13:59:06]  Program,CurrentDomain_UnhandledException 错误：未将对象引用设置到对象的实例。
+
+Stack Trace:
+   在 DataAdministrator.自动流程.Father.readPLC_CS(String[] tempStr, String str_Name, String url, String productCode, String deviceCode, String userOperator, Int32 StationType, JArray& paramsArrayList, JArray& materialsArrayList) 位置 D:\追溯软件\DataAdministrator（10.03）\DataAdministrator\自动流程\Father.cs:行号 180
+   在 DataAdministrator.自动流程.U壳体上料涂胶.工位1出站(String Code) 位置 D:\追溯软件\DataAdministrator（10.03）\DataAdministrator\自动流程\U壳体上料涂胶.cs:行号 191
+   在 ImSignal.MySignal.RunSignal() 位置 D:\追溯软件\DataAdministrator（10.03）\DataAdministrator\自定义流程的结构\MySignal.cs:行号 45
+   在 System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+
+[13:59:54]  Program,CurrentDomain_UnhandledException 错误：未将对象引用设置到对象的实例。
+
+Stack Trace:
+   在 DataAdministrator.自动流程.Father.readPLC_CS(String[] tempStr, String str_Name, String url, String productCode, String deviceCode, String userOperator, Int32 StationType, JArray& paramsArrayList, JArray& materialsArrayList) 位置 D:\追溯软件\DataAdministrator（10.03）\DataAdministrator\自动流程\Father.cs:行号 180
+   在 DataAdministrator.自动流程.U壳体上料涂胶.工位1出站(String Code) 位置 D:\追溯软件\DataAdministrator（10.03）\DataAdministrator\自动流程\U壳体上料涂胶.cs:行号 191
+   在 ImSignal.MySignal.RunSignal() 位置 D:\追溯软件\DataAdministrator（10.03）\DataAdministrator\自定义流程的结构\MySignal.cs:行号 45
+   在 System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+
+[14:18:37]  Program,CurrentDomain_UnhandledException 错误：未将对象引用设置到对象的实例。
+
+Stack Trace:
+   在 DataAdministrator.自动流程.Father.readPLC_CS(String[] tempStr, String str_Name, String url, String productCode, String deviceCode, String userOperator, Int32 StationType, JArray& paramsArrayList, JArray& materialsArrayList)
+   在 DataAdministrator.自动流程.U壳体上料涂胶.工位1出站(String Code)
+   在 ImSignal.MySignal.RunSignal()
+   在 System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+
+[14:18:45]  Program,CurrentDomain_UnhandledException 错误：未将对象引用设置到对象的实例。
+
+Stack Trace:
+   在 DataAdministrator.自动流程.Father.readPLC_CS(String[] tempStr, String str_Name, String url, String productCode, String deviceCode, String userOperator, Int32 StationType, JArray& paramsArrayList, JArray& materialsArrayList) 位置 D:\追溯软件\DataAdministrator（10.03）\DataAdministrator\自动流程\Father.cs:行号 180
+   在 DataAdministrator.自动流程.U壳体上料涂胶.工位1出站(String Code) 位置 D:\追溯软件\DataAdministrator（10.03）\DataAdministrator\自动流程\U壳体上料涂胶.cs:行号 191
+   在 ImSignal.MySignal.RunSignal() 位置 D:\追溯软件\DataAdministrator（10.03）\DataAdministrator\自定义流程的结构\MySignal.cs:行号 45
+   在 System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+
+[16:59:59]  Program,CurrentDomain_UnhandledException 错误：Unexpected character encountered while parsing value: 无. Path '', line 0, position 0.
+
+Stack Trace:
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 JP_DLL.JsonHelper.GetJObject(String json)
+   在 DataAdministraction.MES_Coonect.MESClass.barcodeReplacement(String url, String tempProductSn, String productSn, String deviceCode, String userOperator, String timestamp) 位置 D:\追溯软件\DataAdministrator（10.03）\DataAdministrator\MES_Coonect\MESClass.cs:行号 302
+   在 DataAdministrator.自动流程.U壳体上料涂胶.工位2出站(String Code) 位置 D:\追溯软件\DataAdministrator（10.03）\DataAdministrator\自动流程\U壳体上料涂胶.cs:行号 401
+   在 ImSignal.MySignal.RunSignal() 位置 D:\追溯软件\DataAdministrator（10.03）\DataAdministrator\自定义流程的结构\MySignal.cs:行号 45
+   在 System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+
+[17:01:12]  Program,CurrentDomain_UnhandledException 错误：Unexpected character encountered while parsing value: 无. Path '', line 0, position 0.
+
+Stack Trace:
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 JP_DLL.JsonHelper.GetJObject(String json)
+   在 DataAdministraction.MES_Coonect.MESClass.barcodeReplacement(String url, String tempProductSn, String productSn, String deviceCode, String userOperator, String timestamp) 位置 D:\追溯软件\DataAdministrator（10.03）\DataAdministrator\MES_Coonect\MESClass.cs:行号 302
+   在 DataAdministrator.自动流程.U壳体上料涂胶.工位2出站(String Code) 位置 D:\追溯软件\DataAdministrator（10.03）\DataAdministrator\自动流程\U壳体上料涂胶.cs:行号 401
+   在 ImSignal.MySignal.RunSignal() 位置 D:\追溯软件\DataAdministrator（10.03）\DataAdministrator\自定义流程的结构\MySignal.cs:行号 45
+   在 System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+
+[17:01:20]  Program,CurrentDomain_UnhandledException 错误：Unexpected character encountered while parsing value: 无. Path '', line 0, position 0.
+
+Stack Trace:
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 JP_DLL.JsonHelper.GetJObject(String json)
+   在 DataAdministraction.MES_Coonect.MESClass.barcodeReplacement(String url, String tempProductSn, String productSn, String deviceCode, String userOperator, String timestamp) 位置 D:\追溯软件\DataAdministrator（10.03）\DataAdministrator\MES_Coonect\MESClass.cs:行号 302
+   在 DataAdministrator.自动流程.U壳体上料涂胶.工位2出站(String Code) 位置 D:\追溯软件\DataAdministrator（10.03）\DataAdministrator\自动流程\U壳体上料涂胶.cs:行号 401
+   在 ImSignal.MySignal.RunSignal() 位置 D:\追溯软件\DataAdministrator（10.03）\DataAdministrator\自定义流程的结构\MySignal.cs:行号 45
+   在 System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+

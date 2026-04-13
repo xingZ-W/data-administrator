@@ -1,0 +1,24 @@
+[19:49:55]  Program,CurrentDomain_UnhandledException 错误：未将对象引用设置到对象的实例。
+
+Stack Trace:
+   在 DataAdministrator.自动流程.绝缘耐压.工位1进站(String Code) 位置 E:\追溯软件\DataAdministrator\DataAdministrator\自动流程\绝缘耐压.cs:行号 128
+   在 ImSignal.MySignal.RunSignal() 位置 E:\追溯软件\DataAdministrator\DataAdministrator\自定义流程的结构\MySignal.cs:行号 45
+   在 System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+
+[19:52:26]  Program,CurrentDomain_UnhandledException 错误：未将对象引用设置到对象的实例。
+
+Stack Trace:
+   在 DataAdministrator.自动流程.绝缘耐压.工位1进站(String Code) 位置 E:\追溯软件\DataAdministrator\DataAdministrator\自动流程\绝缘耐压.cs:行号 128
+   在 ImSignal.MySignal.RunSignal() 位置 E:\追溯软件\DataAdministrator\DataAdministrator\自定义流程的结构\MySignal.cs:行号 45
+   在 System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+

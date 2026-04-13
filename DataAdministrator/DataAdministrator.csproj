@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5A3A0833-9F11-4CC9-9B2A-32DD65BC14E4}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DataAdministrator</RootNamespace>
+    <AssemblyName>DataAdministrator</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>true</Prefer32Bit>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>2.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CookComputing.XmlRpcV2, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\CookComputing.XmlRpcV2.dll</HintPath>
+    </Reference>
+    <Reference Include="HslCommunication, Version=5.8.0.0, Culture=neutral, PublicKeyToken=cdb2261fa039ed67, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\HslCommunication.dll</HintPath>
+    </Reference>
+    <Reference Include="JP_DLL, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\JP_DLL.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Seagull.BarTender.Print, Version=11.0.8.1, Culture=neutral, PublicKeyToken=109ff779a1b4cbc7, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Seagull.BarTender.Print.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FileDelete.cs" />
+    <Compile Include="MES_Coonect\MESClass.cs" />
+    <Compile Include="PLC设置\PLC_FatherClass.cs" />
+    <Compile Include="PLC设置\PLC_Siemens.cs" />
+    <Compile Include="公用函数类\L100B.cs" />
+    <Compile Include="公用函数类\BT3562.cs" />
+    <Compile Include="公用函数类\DataGridViewClass.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="公用函数类\DvApi.cs" />
+    <Compile Include="公用函数类\keyence_scan.cs" />
+    <Compile Include="公用函数类\PublicClass.cs" />
+    <Compile Include="公用函数类\WT6582.cs" />
+    <Compile Include="功能插件\产品信息页\Add_Product.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="功能插件\产品信息页\Add_Product.Designer.cs">
+      <DependentUpon>Add_Product.cs</DependentUpon>
+    </Compile>
+    <Compile Include="功能插件\停机弹窗\StopWindows.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="功能插件\停机弹窗\StopWindows.Designer.cs">
+      <DependentUpon>StopWindows.cs</DependentUpon>
+    </Compile>
+    <Compile Include="功能插件\右击菜单\Right_Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="功能插件\右击菜单\Right_Menu.Designer.cs">
+      <DependentUpon>Right_Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="功能插件\手动出站窗口\RweldDate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="功能插件\手动出站窗口\RweldDate.Designer.cs">
+      <DependentUpon>RweldDate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="功能插件\斑马打印机连接\BarTender_Connect.cs" />
+    <Compile Include="功能插件\斑马打印机连接\BarTender_Windows.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="功能插件\斑马打印机连接\BarTender_Windows.designer.cs">
+      <DependentUpon>BarTender_Windows.cs</DependentUpon>
+    </Compile>
+    <Compile Include="功能插件\本地数据页\Add_Data.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="功能插件\本地数据页\Add_Data.Designer.cs">
+      <DependentUpon>Add_Data.cs</DependentUpon>
+    </Compile>
+    <Compile Include="功能插件\用户登陆窗口\User_Log.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="功能插件\用户登陆窗口\User_Log.Designer.cs">
+      <DependentUpon>User_Log.cs</DependentUpon>
+    </Compile>
+    <Compile Include="功能插件\用户管理页\Add_User.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="功能插件\用户管理页\Add_User.Designer.cs">
+      <DependentUpon>Add_User.cs</DependentUpon>
+    </Compile>
+    <Compile Include="功能插件\设置窗口\Shezhi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="功能插件\设置窗口\Shezhi.designer.cs">
+      <DependentUpon>Shezhi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="自动流程\外壳焊后.cs" />
+    <Compile Include="自动流程\外壳焊接.cs" />
+    <Compile Include="自动流程\自动热铆.cs" />
+    <Compile Include="自动流程\极耳焊后.cs" />
+    <Compile Include="自动流程\极耳焊接.cs" />
+    <Compile Include="自动流程\极耳折弯滚平.cs" />
+    <Compile Include="自动流程\U壳体上料涂胶.cs" />
+    <Compile Include="自动流程\绝缘耐压.cs" />
+    <Compile Include="自动流程\Father.cs" />
+    <Compile Include="自定义流程的结构\MySignal.cs" />
+    <Compile Include="自定义流程的结构\Signal.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="功能插件\产品信息页\Add_Product.resx">
+      <DependentUpon>Add_Product.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="功能插件\停机弹窗\StopWindows.resx">
+      <DependentUpon>StopWindows.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="功能插件\右击菜单\Right_Menu.resx">
+      <DependentUpon>Right_Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="功能插件\手动出站窗口\RweldDate.resx">
+      <DependentUpon>RweldDate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="功能插件\斑马打印机连接\BarTender_Windows.resx">
+      <DependentUpon>BarTender_Windows.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="功能插件\本地数据页\Add_Data.resx">
+      <DependentUpon>Add_Data.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="功能插件\用户登陆窗口\User_Log.resx">
+      <DependentUpon>User_Log.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="功能插件\用户管理页\Add_User.resx">
+      <DependentUpon>Add_User.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="功能插件\设置窗口\Shezhi.resx">
+      <DependentUpon>Shezhi.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="2.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

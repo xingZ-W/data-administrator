@@ -1,0 +1,125 @@
+[16:51:36]  Program,CurrentDomain_UnhandledException 错误：端口被关闭。
+
+Stack Trace:
+   在 System.IO.Ports.SerialPort.Write(Byte[] buffer, Int32 offset, Int32 count)
+   在 DataAdministrator.自动流程.绝缘耐压.工位2进站(String Code) 位置 E:\测试程序\DataAdministrator\DataAdministrator\自动流程\绝缘耐压.cs:行号 235
+   在 ImSignal.MySignal.RunSignal() 位置 E:\测试程序\DataAdministrator\DataAdministrator\自定义流程的结构\MySignal.cs:行号 45
+   在 System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+
+[19:57:02]  Program,CurrentDomain_UnhandledException 错误：未将对象引用设置到对象的实例。
+
+Stack Trace:
+   在 DataAdministraction.MES_Coonect.MESClass.UploadToMES(String jsonData, String url) 位置 E:\测试程序\DataAdministrator\DataAdministrator\MES_Coonect\MESClass.cs:行号 65
+   在 DataAdministraction.MES_Coonect.MESClass.inbound_MES(String url, String WipCode, String deviceCode, String processedMode, String Useroperator, String timestamp, Int32 workstation, String plc_Name_OK, String plc_Name_NG, String& productCode) 位置 E:\测试程序\DataAdministrator\DataAdministrator\MES_Coonect\MESClass.cs:行号 111
+   在 DataAdministrator.自动流程.外壳焊接.工位2进站(String Code) 位置 E:\测试程序\DataAdministrator\DataAdministrator\自动流程\外壳焊接.cs:行号 261
+   在 ImSignal.MySignal.RunSignal() 位置 E:\测试程序\DataAdministrator\DataAdministrator\自定义流程的结构\MySignal.cs:行号 45
+   在 System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+
+[19:57:35]  Program,CurrentDomain_UnhandledException 错误：未将对象引用设置到对象的实例。
+
+Stack Trace:
+   在 DataAdministraction.MES_Coonect.MESClass.UploadToMES(String jsonData, String url) 位置 E:\测试程序\DataAdministrator\DataAdministrator\MES_Coonect\MESClass.cs:行号 65
+   在 DataAdministraction.MES_Coonect.MESClass.inbound_MES(String url, String WipCode, String deviceCode, String processedMode, String Useroperator, String timestamp, Int32 workstation, String plc_Name_OK, String plc_Name_NG, String& productCode) 位置 E:\测试程序\DataAdministrator\DataAdministrator\MES_Coonect\MESClass.cs:行号 111
+   在 DataAdministrator.自动流程.外壳焊接.工位2进站(String Code) 位置 E:\测试程序\DataAdministrator\DataAdministrator\自动流程\外壳焊接.cs:行号 261
+   在 ImSignal.MySignal.RunSignal() 位置 E:\测试程序\DataAdministrator\DataAdministrator\自定义流程的结构\MySignal.cs:行号 45
+   在 System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+
+[22:23:55]  Program,CurrentDomain_UnhandledException 错误：未将对象引用设置到对象的实例。
+
+Stack Trace:
+   在 DataAdministraction.MES_Coonect.MESClass.UploadToMES(String jsonData, String url) 位置 H:\项目\2-项目\调试中程序\万向\DataAdministrator\DataAdministrator\MES_Coonect\MESClass.cs:行号 65
+   在 DataAdministraction.MES_Coonect.MESClass.inbound_MES(String url, String WipCode, String deviceCode, String processedMode, String Useroperator, String timestamp, Int32 workstation, String plc_Name_OK, String plc_Name_NG, String& productCode) 位置 H:\项目\2-项目\调试中程序\万向\DataAdministrator\DataAdministrator\MES_Coonect\MESClass.cs:行号 111
+   在 DataAdministrator.自动流程.外壳焊后.工位1进站(String Code) 位置 H:\项目\2-项目\调试中程序\万向\DataAdministrator\DataAdministrator\自动流程\外壳焊后.cs:行号 108
+   在 ImSignal.MySignal.RunSignal() 位置 H:\项目\2-项目\调试中程序\万向\DataAdministrator\DataAdministrator\自定义流程的结构\MySignal.cs:行号 45
+   在 System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+
+[22:24:02]  Program,CurrentDomain_UnhandledException 错误：未将对象引用设置到对象的实例。
+
+Stack Trace:
+   在 DataAdministraction.MES_Coonect.MESClass.UploadToMES(String jsonData, String url) 位置 H:\项目\2-项目\调试中程序\万向\DataAdministrator\DataAdministrator\MES_Coonect\MESClass.cs:行号 65
+   在 DataAdministraction.MES_Coonect.MESClass.inbound_MES(String url, String WipCode, String deviceCode, String processedMode, String Useroperator, String timestamp, Int32 workstation, String plc_Name_OK, String plc_Name_NG, String& productCode) 位置 H:\项目\2-项目\调试中程序\万向\DataAdministrator\DataAdministrator\MES_Coonect\MESClass.cs:行号 111
+   在 DataAdministrator.自动流程.外壳焊后.工位1进站(String Code) 位置 H:\项目\2-项目\调试中程序\万向\DataAdministrator\DataAdministrator\自动流程\外壳焊后.cs:行号 108
+   在 ImSignal.MySignal.RunSignal() 位置 H:\项目\2-项目\调试中程序\万向\DataAdministrator\DataAdministrator\自定义流程的结构\MySignal.cs:行号 45
+   在 System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+
+[22:24:08]  Program,CurrentDomain_UnhandledException 错误：未将对象引用设置到对象的实例。
+
+Stack Trace:
+   在 DataAdministraction.MES_Coonect.MESClass.UploadToMES(String jsonData, String url) 位置 H:\项目\2-项目\调试中程序\万向\DataAdministrator\DataAdministrator\MES_Coonect\MESClass.cs:行号 65
+   在 DataAdministraction.MES_Coonect.MESClass.inbound_MES(String url, String WipCode, String deviceCode, String processedMode, String Useroperator, String timestamp, Int32 workstation, String plc_Name_OK, String plc_Name_NG, String& productCode) 位置 H:\项目\2-项目\调试中程序\万向\DataAdministrator\DataAdministrator\MES_Coonect\MESClass.cs:行号 111
+   在 DataAdministrator.自动流程.外壳焊后.工位1进站(String Code) 位置 H:\项目\2-项目\调试中程序\万向\DataAdministrator\DataAdministrator\自动流程\外壳焊后.cs:行号 108
+   在 ImSignal.MySignal.RunSignal() 位置 H:\项目\2-项目\调试中程序\万向\DataAdministrator\DataAdministrator\自定义流程的结构\MySignal.cs:行号 45
+   在 System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+
+[22:24:11]  Program,CurrentDomain_UnhandledException 错误：未将对象引用设置到对象的实例。
+
+Stack Trace:
+   在 DataAdministraction.MES_Coonect.MESClass.UploadToMES(String jsonData, String url) 位置 H:\项目\2-项目\调试中程序\万向\DataAdministrator\DataAdministrator\MES_Coonect\MESClass.cs:行号 65
+   在 DataAdministraction.MES_Coonect.MESClass.inbound_MES(String url, String WipCode, String deviceCode, String processedMode, String Useroperator, String timestamp, Int32 workstation, String plc_Name_OK, String plc_Name_NG, String& productCode) 位置 H:\项目\2-项目\调试中程序\万向\DataAdministrator\DataAdministrator\MES_Coonect\MESClass.cs:行号 111
+   在 DataAdministrator.自动流程.外壳焊后.工位1进站(String Code) 位置 H:\项目\2-项目\调试中程序\万向\DataAdministrator\DataAdministrator\自动流程\外壳焊后.cs:行号 108
+   在 ImSignal.MySignal.RunSignal() 位置 H:\项目\2-项目\调试中程序\万向\DataAdministrator\DataAdministrator\自定义流程的结构\MySignal.cs:行号 45
+   在 System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+
+[22:24:15]  Program,CurrentDomain_UnhandledException 错误：未将对象引用设置到对象的实例。
+
+Stack Trace:
+   在 DataAdministraction.MES_Coonect.MESClass.UploadToMES(String jsonData, String url) 位置 H:\项目\2-项目\调试中程序\万向\DataAdministrator\DataAdministrator\MES_Coonect\MESClass.cs:行号 65
+   在 DataAdministraction.MES_Coonect.MESClass.inbound_MES(String url, String WipCode, String deviceCode, String processedMode, String Useroperator, String timestamp, Int32 workstation, String plc_Name_OK, String plc_Name_NG, String& productCode) 位置 H:\项目\2-项目\调试中程序\万向\DataAdministrator\DataAdministrator\MES_Coonect\MESClass.cs:行号 111
+   在 DataAdministrator.自动流程.外壳焊后.工位1进站(String Code) 位置 H:\项目\2-项目\调试中程序\万向\DataAdministrator\DataAdministrator\自动流程\外壳焊后.cs:行号 108
+   在 ImSignal.MySignal.RunSignal() 位置 H:\项目\2-项目\调试中程序\万向\DataAdministrator\DataAdministrator\自定义流程的结构\MySignal.cs:行号 45
+   在 System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+
+[22:24:46]  Program,CurrentDomain_UnhandledException 错误：未将对象引用设置到对象的实例。
+
+Stack Trace:
+   在 DataAdministraction.MES_Coonect.MESClass.UploadToMES(String jsonData, String url) 位置 H:\项目\2-项目\调试中程序\万向\DataAdministrator\DataAdministrator\MES_Coonect\MESClass.cs:行号 65
+   在 DataAdministraction.MES_Coonect.MESClass.inbound_MES(String url, String WipCode, String deviceCode, String processedMode, String Useroperator, String timestamp, Int32 workstation, String plc_Name_OK, String plc_Name_NG, String& productCode) 位置 H:\项目\2-项目\调试中程序\万向\DataAdministrator\DataAdministrator\MES_Coonect\MESClass.cs:行号 111
+   在 DataAdministrator.自动流程.外壳焊后.工位1进站(String Code) 位置 H:\项目\2-项目\调试中程序\万向\DataAdministrator\DataAdministrator\自动流程\外壳焊后.cs:行号 108
+   在 ImSignal.MySignal.RunSignal() 位置 H:\项目\2-项目\调试中程序\万向\DataAdministrator\DataAdministrator\自定义流程的结构\MySignal.cs:行号 45
+   在 System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+
